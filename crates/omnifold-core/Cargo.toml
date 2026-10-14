@@ -1,0 +1,10 @@
+[package]
+name = "omnifold-core"
+description = "8B.is Omnifold (ayePhone) core runtime model: Vaked capability graph, mem8 continuity ledger, zero-alloc CrabCC DMA ring, Bio-Harmonic decoder, R-Pi 40-pin Universal IO arbiter, and Zeno autonomous wallet"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[dependencies]

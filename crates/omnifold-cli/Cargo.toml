@@ -1,0 +1,15 @@
+[package]
+name = "omnifold-cli"
+description = "CLI & Ghostty/Kitty HUD verifier for the 8B.is Omnifold (ayePhone) capability graph, DMA ring, Bio-Harmonic decoder, R-Pi Universal IO, and Zeno wallet"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "ayephone"
+path = "src/main.rs"
+
+[dependencies]
+omnifold-core = { path = "../omnifold-core" }

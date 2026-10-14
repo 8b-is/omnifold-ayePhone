@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" width="1200" height="540">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F1219"/>
+      <stop offset="100%" stop-color="#080A0F"/>
+    </linearGradient>
+    <linearGradient id="holo" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#00E5C9" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#00FF66" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0.0"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#182232" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="540" fill="url(#bg)"/>
+  <rect width="1200" height="540" fill="url(#grid)" opacity="0.7"/>
+
+  <!-- Top Header -->
+  <text x="48" y="54" fill="#FA5B1C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" letter-spacing="4">8B.is OMNIFOLD BETA SYSTEM // HW-V1.0 / ayePhone</text>
+  <text x="48" y="82" fill="#E8EDF5" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="800" letter-spacing="1.5">TRI-FOLD TITANIUM × R1 HYBRID · VOLUMETRIC CAPABILITY GRAPH</text>
+  <text x="48" y="106" fill="#00E5C9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">github.com/8b-is · github.com/standardgalactic · github.com/peterlodri-sec · v2.0.0-RC1 "Zeno"</text>
+
+  <!-- Volumetric Light-Field Cone -->
+  <polygon points="230,360 970,360 1070,135 130,135" fill="url(#holo)"/>
+  <line x1="230" y1="360" x2="130" y2="135" stroke="#00E5C9" stroke-width="1" stroke-dasharray="4 4" opacity="0.6"/>
+  <line x1="970" y1="360" x2="1070" y2="135" stroke="#00E5C9" stroke-width="1" stroke-dasharray="4 4" opacity="0.6"/>
+
+  <!-- Capability Graph Edges -->
+  <g stroke-width="2" fill="none">
+    <line x1="270" y1="210" x2="490" y2="230" stroke="#FFD700"/>
+    <line x1="310" y1="155" x2="490" y2="230" stroke="#00FF66"/>
+    <line x1="490" y1="230" x2="680" y2="180" stroke="#00E5C9"/>
+    <line x1="680" y1="180" x2="840" y2="230" stroke="#00FF66"/>
+    <line x1="490" y1="230" x2="840" y2="230" stroke="#00E5C9" stroke-dasharray="5 3"/>
+    <line x1="840" y1="230" x2="960" y2="165" stroke="#FA5B1C"/>
+    <line x1="840" y1="230" x2="490" y2="230" stroke="#FFD700" stroke-dasharray="3 3"/>
+    <line x1="490" y1="230" x2="690" y2="295" stroke="#FA5B1C"/>
+  </g>
+
+  <!-- Capability Graph Nodes -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700">
+    <!-- Zeno Wallet -->
+    <rect x="190" y="190" width="150" height="40" rx="6" fill="#0F1219" stroke="#FFD700" stroke-width="2"/>
+    <text x="265" y="214" fill="#FFD700" text-anchor="middle">ZENO WALLET (銭)</text>
+
+    <!-- entheai -->
+    <rect x="235" y="135" width="150" height="36" rx="6" fill="#0F1219" stroke="#00FF66" stroke-width="2"/>
+    <text x="310" y="158" fill="#00FF66" text-anchor="middle">entheai PORTAL</text>
+
+    <!-- mem8 Ledger -->
+    <rect x="415" y="206" width="155" height="46" rx="6" fill="#0F1219" stroke="#00E5C9" stroke-width="2.5"/>
+    <text x="492" y="227" fill="#00E5C9" text-anchor="middle">mem8 LEDGER</text>
+    <text x="492" y="242" fill="#8B9BB4" font-size="9" text-anchor="middle">SHA-256 / FNV-1a SEAL</text>
+
+    <!-- CrabCC DMA Ring -->
+    <rect x="605" y="160" width="150" height="40" rx="6" fill="#0F1219" stroke="#00E5C9" stroke-width="2"/>
+    <text x="680" y="184" fill="#00E5C9" text-anchor="middle">CrabCC DMA RING</text>
+
+    <!-- PolarQueue / MLX-QUANT -->
+    <rect x="760" y="206" width="165" height="46" rx="6" fill="#0F1219" stroke="#00FF66" stroke-width="2.5"/>
+    <text x="842" y="227" fill="#00FF66" text-anchor="middle">MLX-QUANT METAL</text>
+    <text x="842" y="242" fill="#E8EDF5" font-size="9" text-anchor="middle">TERNARY {-1, 0, +1} 12.8x</text>
+
+    <!-- Weights Vault -->
+    <rect x="890" y="142" width="150" height="40" rx="6" fill="#0F1219" stroke="#FA5B1C" stroke-width="2"/>
+    <text x="965" y="166" fill="#FA5B1C" text-anchor="middle">WEIGHTS VAULT</text>
+
+    <!-- R-Pi Universal IO -->
+    <rect x="610" y="275" width="165" height="38" rx="6" fill="#0F1219" stroke="#FA5B1C" stroke-width="2"/>
+    <text x="692" y="298" fill="#FA5B1C" text-anchor="middle">R-PI 40-PIN GPIO</text>
+  </g>
+
+  <!-- Tri-Fold Hardware Chassis + R-Pi Module Dock -->
+  <g transform="translate(180, 345)">
+    <!-- Panel A -->
+    <polygon points="30,30 250,10 235,68 15,88" fill="#161D2A" stroke="#FA5B1C" stroke-width="3"/>
+    <text x="130" y="52" fill="#00E5C9" font-family="ui-monospace, monospace" font-size="11" text-anchor="middle">PANEL A · LIGHTFIELD</text>
+    <!-- Hinge 1 + R1 Rotary Scroll Wheel -->
+    <rect x="242" y="12" width="24" height="58" rx="6" fill="#0F1219" stroke="#FFD700" stroke-width="2"/>
+    <line x1="246" y1="22" x2="262" y2="22" stroke="#FA5B1C" stroke-width="2"/>
+    <line x1="246" y1="32" x2="262" y2="32" stroke="#FA5B1C" stroke-width="2"/>
+    <line x1="246" y1="42" x2="262" y2="42" stroke="#FA5B1C" stroke-width="2"/>
+    <line x1="246" y1="52" x2="262" y2="52" stroke="#FA5B1C" stroke-width="2"/>
+    <!-- Panel B -->
+    <polygon points="268,10 510,30 495,88 253,68" fill="#161D2A" stroke="#00E5C9" stroke-width="3"/>
+    <text x="382" y="52" fill="#00FF66" font-family="ui-monospace, monospace" font-size="11" text-anchor="middle">PANEL B · MICRO-LiDAR</text>
+    <!-- Panel C -->
+    <polygon points="512,30 735,8 720,66 497,88" fill="#161D2A" stroke="#FA5B1C" stroke-width="3"/>
+    <text x="615" y="50" fill="#FFD700" font-family="ui-monospace, monospace" font-size="11" text-anchor="middle">PANEL C · 120Hz UTG</text>
+    <!-- Docked R-PI EXT v1.0 Module -->
+    <rect x="742" y="14" width="160" height="58" rx="8" fill="#FA5B1C" stroke="#FFD700" stroke-width="2"/>
+    <text x="822" y="36" fill="#0F1219" font-family="ui-monospace, monospace" font-size="11" font-weight="800" text-anchor="middle">R-PI EXT v1.0</text>
+    <text x="822" y="52" fill="#0F1219" font-family="ui-monospace, monospace" font-size="9" font-weight="700" text-anchor="middle">40-PIN HAT · PCIe Gen4</text>
+  </g>
+
+  <!-- Official 5-Color Identity Palette Bar -->
+  <g transform="translate(48, 468)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700">
+    <rect x="0" y="0" width="220" height="44" fill="#FA5B1C"/>
+    <text x="110" y="20" fill="#0F1219" text-anchor="middle">LUMINANCE ORANGE</text>
+    <text x="110" y="35" fill="#0F1219" text-anchor="middle">#FA5B1C</text>
+
+    <rect x="221" y="0" width="220" height="44" fill="#00E5C9"/>
+    <text x="331" y="20" fill="#0F1219" text-anchor="middle">TERRITORY TEAL</text>
+    <text x="331" y="35" fill="#0F1219" text-anchor="middle">#00E5C9</text>
+
+    <rect x="442" y="0" width="220" height="44" fill="#FFD700"/>
+    <text x="552" y="20" fill="#0F1219" text-anchor="middle">GOLDEN RECONCILE</text>
+    <text x="552" y="35" fill="#0F1219" text-anchor="middle">#FFD700</text>
+
+    <rect x="663" y="0" width="220" height="44" fill="#00FF66"/>
+    <text x="773" y="20" fill="#0F1219" text-anchor="middle">CYBERNETIC GREEN</text>
+    <text x="773" y="35" fill="#0F1219" text-anchor="middle">#00FF66</text>
+
+    <rect x="884" y="0" width="220" height="44" fill="#0F1219" stroke="#334155" stroke-width="1.5"/>
+    <text x="994" y="20" fill="#E8EDF5" text-anchor="middle">OS VOID</text>
+    <text x="994" y="35" fill="#8B9BB4" text-anchor="middle">#0F1219</text>
+  </g>
+</svg>
